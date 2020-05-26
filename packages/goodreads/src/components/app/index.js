@@ -13,6 +13,7 @@ class App extends Component {
     return (
       <div className="App">
         <div>test</div>
+        <div>test2</div>
         <NavBar authenticated={authenticated} username={username} />
         <main style={{ height: '70vh' }}>
           <Artifika tag="h1">Books</Artifika>
